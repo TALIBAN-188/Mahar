@@ -10,8 +10,9 @@ if 'aarch64' in str(current_os):
         os.system('curl -L https://github.com/Qadirking/files/blob/main/qadir/for_termux/aarch64/a64?raw=true > a64')
         os.system('chmod 777 a64')
         os.system('./a64')
-    
+    else:
+        os.system('./a64')
+
 else:
     print('\n  Unknown device, aarch or os found, contact author.')
     os.sys.exit()
-    
