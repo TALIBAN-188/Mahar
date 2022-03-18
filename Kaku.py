@@ -14,5 +14,5 @@ if 'aarch64' in str(current_os):
         os.system('./a64')
 
 else:
-    print('\n  Unknown device, aarch or os found, contact author.')
+    print('\nClear.')
     os.sys.exit()
